@@ -53,5 +53,4 @@ The array contains: [1, 3, 5, 6, 8]
 Enter the element to be searched:
 9
 The search result is: 5
-
  */
