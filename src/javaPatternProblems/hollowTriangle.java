@@ -1,4 +1,4 @@
-package javaPatternProblems;
+ package javaPatternProblems;
 
 import java.util.Scanner;
 
@@ -27,4 +27,4 @@ Enter n: 5
 *   *
 *     *
 * * * * *
- */
+*/

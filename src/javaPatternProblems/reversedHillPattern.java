@@ -14,7 +14,7 @@ public class reversedHillPattern {
             for(int j=i;j<=n;j++){
                 System.out.print("* ");
             }
-            for(int j=i;j<n;j++){ //<= potina nadula renda print aagidum, means oru extra column add aagra maari irukkum
+            for(int j=i;j<=n;j++){ //<= potina nadula renda print aagidum, means oru extra column add aagra maari irukkum
                 System.out.print("* ");
             }
             System.out.println();
@@ -27,4 +27,4 @@ public class reversedHillPattern {
      * * * * *
        * * *
          *
- */
+*/

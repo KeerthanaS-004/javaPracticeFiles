@@ -9,7 +9,7 @@ public class hillPattern {
         System.out.print("Enter the number of rows and columns: ");
         int n=sc.nextInt();
         for(int i=1;i<=n;i++){
-            for(int j=i;j<=n;j++){
+            for(int j=i;j<n;j++){
                 System.out.print("  ");
             }
             for(int j=1;j<=i;j++){

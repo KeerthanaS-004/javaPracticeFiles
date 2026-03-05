@@ -23,3 +23,11 @@ public class printingPrimes {
         System.out.println("Total of Prime numbers : "+ primeCount);
     }
 }
+/*
+Enter a number: 7
+2
+3
+5
+7
+Total of Prime numbers : 4
+ */
