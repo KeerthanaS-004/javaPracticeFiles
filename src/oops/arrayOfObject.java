@@ -23,8 +23,11 @@ public class arrayOfObject {
         arr[0] = s1;
         arr[1] = s2;
         arr[2] = s3;
-        for (int i = 0; i < arr.length ; i++) {
+/*        for (int i = 0; i < arr.length ; i++) {
             System.out.println(arr[i].name + " : " + arr[i].marks);
+        }*/
+        for(students s: arr){
+            System.out.println(s.name + " : " + s.marks);
         }
     }
 
