@@ -13,8 +13,8 @@ public class staticVariable {
     static void main(String[] args) {
         purchase.type = "Smart Phone";
         //only declared once
-        //always static name can be called with the class name , not with objects
-        //here the name "smart phone" is applied to all the objects, because it is static variable
+        //always static data can be called with the class data , not with objects
+        //here the data "smart phone" is applied to all the objects, because it is static variable
         //The static variable is belongs to the class not the object
 
         purchase p = new purchase();

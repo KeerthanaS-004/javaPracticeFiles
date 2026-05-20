@@ -24,7 +24,7 @@ public class arrayOfObject {
         arr[1] = s2;
         arr[2] = s3;
 /*        for (int i = 0; i < arr.length ; i++) {
-            System.out.println(arr[i].name + " : " + arr[i].marks);
+            System.out.println(arr[i].data + " : " + arr[i].marks);
         }*/
         for(students s: arr){
             System.out.println(s.name + " : " + s.marks);
