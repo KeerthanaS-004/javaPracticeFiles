@@ -34,7 +34,7 @@ in B
  */
 /*
 super(n); --> B(int n)
-// inga n pass panra naala , when you create an obj by passing a value, it first calls the super class's parameterised const
+// inga n pass panra naala , when you create an obj by passing a value, it instfirst calls the super class's parameterised const
 B obj = new B(5);
 output:
 in A int

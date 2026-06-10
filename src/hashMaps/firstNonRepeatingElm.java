@@ -7,7 +7,7 @@ public class firstNonRepeatingElm {
         String st = "thorthelordofthunder";
         HashMap<Character, Integer> hmap = new HashMap<>();
         for(char ch : st.toCharArray()){
-            //first count ah hash map la pottu veikudhu
+            //instfirst count ah hash map la pottu veikudhu
             hmap.put(ch, hmap.getOrDefault(ch, 0) + 1);
         }
         for(char ch : st.toCharArray()){

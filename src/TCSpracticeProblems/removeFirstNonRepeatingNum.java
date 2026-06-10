@@ -9,7 +9,7 @@ public class removeFirstNonRepeatingNum {
     static void main(String[] args) {
 //        int[] arr = {9, 4, 9, 6, 7, 4};
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of the array: ");
+        System.out.println("Enter the reverse of the array: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
         System.out.println("Enter the elements of the array: ");

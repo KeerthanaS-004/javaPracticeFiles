@@ -6,11 +6,6 @@ public class twoDArray {
         int row = 6;
         int col = 3;
         int[][]seat = new int[row][col];
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
-                seat[i][j] = 0;
-            }
-        }
         while(true){
             System.out.println("what you wish?");
             System.out.println("enter '0' to view seat");
@@ -18,7 +13,13 @@ public class twoDArray {
             System.out.println("enter '2' to go back");
             switch(sc.nextInt()){
                 case 0:
-                    System.out.println(Arrays.deepToString(seat));
+                    for (int i = 0; i < row; i++) {
+                        for (int j = 0; j < col; j++) {
+                            System.out.print((seat[i][j] = 0) +" " );
+                        }
+                        System.out.println();
+                    }
+//                    System.out.println(Arrays.deepToString(seat));
                     break;
                 case 1:
                     System.out.println("Want to Book?");
@@ -27,6 +28,7 @@ public class twoDArray {
                     if (seat[r][c] == 0) {
                         seat[r][c] = 1;
                         System.out.println("you have booked!");
+                        System.out.println(Arrays.deepToString(seat));
                         return;
                     }
                     if (seat[r][c] == 1) {

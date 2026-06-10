@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class searchInsertPosition {
     public static  void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the size of an array: ");
+        System.out.println("Enter the reverse of an array: ");
         int size=sc.nextInt();
         int[] arr=new int[size];
         System.out.println("Enter the elements of an array: ");
@@ -41,7 +41,7 @@ public class searchInsertPosition {
     }
 }
 /*
-Enter the size of an array:
+Enter the reverse of an array:
 5
 Enter the elements of an array:
 1

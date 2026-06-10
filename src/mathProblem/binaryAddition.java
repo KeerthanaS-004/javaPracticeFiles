@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class binaryAddition {
     static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the first binary number:");
+        System.out.println("Enter the instfirst binary number:");
         String n1=sc.nextLine();
         System.out.println("Enter the second binary number:");
         String n2=sc.nextLine();
