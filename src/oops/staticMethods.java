@@ -10,7 +10,7 @@ class name{
     }
     public static  void show1(data obj){
         //since we passing the object, we must accept it
-        //using this obj reference we can access the not static variables
+        //using this obj reference we can access the non static variables
 
         System.out.println("___This is a static method___");
 

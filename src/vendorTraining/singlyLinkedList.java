@@ -1,7 +1,7 @@
 package vendorTraining;
 
 public class singlyLinkedList {
-    //Node creation
+    //stack creation
     class Node{
         int data;
         Node next;
@@ -96,17 +96,6 @@ public class singlyLinkedList {
         }
         System.out.println("NULL");
     }
-/*    public void reverse(){
-        int size = 0;
-        Node temp = head;
-        while(temp!=null){
-            size++;
-            temp = temp.next;
-        }
-        for(int i = size-1;i>0;i--){
-            System.out.println(temp.data+" ");
-        }
-    }*/
     public static void main(String[] args) {
         singlyLinkedList list = new singlyLinkedList();
         list.instfirst(4);
@@ -116,10 +105,9 @@ public class singlyLinkedList {
         list.instlast(5);
         list.instlast(6);
         list.instpos(55,2);
-//        list.dellast();
-//        list.delfirst();
+        list.dellast();
+        list.delfirst();
         list.delpos(3);
-//        list.reverse();
         list.print();
         System.out.println(list.search(4));
     }
