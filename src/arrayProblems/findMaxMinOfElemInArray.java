@@ -17,8 +17,8 @@ public class findMaxMinOfElemInArray {
             if(val>max){
                 max=val;
             }
-            if(val<min){
-                min=val;
+            if(val<minmax){
+                minmax=val;
             }
         }
 

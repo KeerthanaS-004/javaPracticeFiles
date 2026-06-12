@@ -1,7 +1,8 @@
+//incomplete
 package vendorTraining;
 
 public class stackUsingLL {
-    public class Stack {
+    static class Stack {
         int data;
         Stack next;
         Stack(int data){

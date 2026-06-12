@@ -1,5 +1,5 @@
 package vendorTraining;
-
+//incomplete
 public class stackUsingArr {
     class stack {
         private int top;
