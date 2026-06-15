@@ -24,7 +24,7 @@ public class countVowelAndConsonents {
                 }
             }
         }
-        System.out.println("Vowel count: " + vowelcount);
-        System.out.println("Consonent count: " + consonentcount);
+        System.out.println("Vowel countLeaf: " + vowelcount);
+        System.out.println("Consonent countLeaf: " + consonentcount);
     }
 }

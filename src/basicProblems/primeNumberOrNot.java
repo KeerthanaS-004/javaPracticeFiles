@@ -12,13 +12,13 @@ public class primeNumberOrNot {
             return;
         }
 /*
-        int count = 0;
+        int countLeaf = 0;
         for (int i = 1; i <= n; i++) {
             if (n % i == 0) {
-                count++;
+                countLeaf++;
             }
         }
-        if(count == 2){
+        if(countLeaf == 2){
             System.out.println("PRIME");
         }
         else{

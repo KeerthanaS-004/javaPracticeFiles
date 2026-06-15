@@ -13,7 +13,7 @@ public class countNoOfDigitsInNumber {
             count++;
         }
 //        for ( ; n != 0 ; n=n/10) {
-//            count++;
+//            countLeaf++;
 //        }
         System.out.println(count);
     }

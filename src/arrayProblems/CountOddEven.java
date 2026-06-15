@@ -22,7 +22,7 @@ public class CountOddEven {
                 countOdd++;
             }
         }
-        System.out.println("Even count: "+ countEven);
-        System.out.println("Odd count: " + countOdd);
+        System.out.println("Even countLeaf: "+ countEven);
+        System.out.println("Odd countLeaf: " + countOdd);
     }
 }

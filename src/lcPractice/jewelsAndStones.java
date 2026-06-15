@@ -11,7 +11,7 @@ public class jewelsAndStones {
         String stones = sc.nextLine();
         System.out.println("Enter the jewels string: ");
         String jewels = sc.nextLine();
-        System.out.println("The count: "+" "+numJewelsInStones(jewels, stones));
+        System.out.println("The countLeaf: "+" "+numJewelsInStones(jewels, stones));
 
     }
     static int numJewelsInStones(String jewels, String stones) {
