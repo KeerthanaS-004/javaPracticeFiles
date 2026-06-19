@@ -1,7 +1,5 @@
 package vendorTraining;
-
 import java.util.*;
-
 public class prioQueue {
     public static void main(String[] args) {
 //        int []a = {3, 5, 1, 6, 7, 4, 8, 9};
