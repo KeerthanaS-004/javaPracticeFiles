@@ -36,3 +36,12 @@ public class permutation {
             permu(arr, used, "", 0);
         }
 }
+/*
+output:
+Enter size: 2
+Enter elements:
+4 8
+Permutations:
+4 8
+8 4
+ */

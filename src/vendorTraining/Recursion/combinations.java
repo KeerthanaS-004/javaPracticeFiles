@@ -43,3 +43,15 @@ public class combinations {
         combination(arr, 0, target, "");
     }
 }
+/*
+Enter size: 3
+Enter elements:
+1 2 3
+Enter target: 5
+Combinations:
+1 1 1 1 1
+1 1 1 2
+1 1 3
+1 2 2
+2 3
+ */
