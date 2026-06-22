@@ -8,8 +8,8 @@ public class stream {
         List<Integer> l = Arrays.asList(1, 15, 9, 4, 5);
 //        l.forEach(System.out::print); //lambda funciton
         /*
-        l.stream() //obj_name.stream()
-                .filter(x -> x % 2 == 0) //.operation to perform
+        l.stream()                             //obj_name.stream()
+                .filter(x -> x % 2 == 0)       //.operation to perform
                 .forEach(System.out::println); //display or conditiom
         */
         /*

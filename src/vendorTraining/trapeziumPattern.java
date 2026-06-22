@@ -16,7 +16,7 @@ public class trapeziumPattern {
             for (int j = 0; j < n - i; j++) {
                 System.out.print(rightNum + j);
                 if (j < n - i - 1) {
-                    System.out.print("*");
+                    System.out.print("*"); //to print star
                 }
             }
             rightNum = rightNum - (n-i-1);
