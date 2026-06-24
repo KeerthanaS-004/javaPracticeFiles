@@ -33,6 +33,7 @@ public class bsl {
             inorder(root.right);
         }
         public boolean search(bsTree root, int value) {
+            /* recursive approach
             if (root == null) {
                 return false;
             }
@@ -42,7 +43,18 @@ public class bsl {
             if (value < root.value) {
                 return search(root.left, value);
             }
-            return search(root.right, value);
+            return search(root.right, value);*/
+            //iterative approach
+            while(root != null) {
+                if (value == root.value) {
+                    return true;
+                } else if (value < root.value) {
+                    root = root.left;
+                } else {
+                    root = root.right;
+                }
+            }
+            return false;
         }
 
         public void travel_leaf(bsTree root) {
@@ -111,11 +123,12 @@ public class bsl {
             root.inorder(root);
             System.out.println();
             root.travel_leaf(root);
-//            System.out.println("Count of leaf nodes : "+ root.countLeaf(root));
+            System.out.println();
+            System.out.println("Count of leaf nodes : "+ root.countLeaf(root));
             root.del(root, 6);
             System.out.println();
             root.inorder(root);
             System.out.println();
-            System.out.println(root.search(root, 4));
+            System.out.println(root.search(root, 7));
         }
 }
