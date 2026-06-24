@@ -2,21 +2,16 @@ package vendorTraining.Recursion;
 import java.util.*;
 
 public class combinations {
-
     static void combination(int arr[], int index, int target, String ans) {
         if (target == 0) {//4==0
             System.out.println(ans);
             return;
         }
-
         if (index == arr.length || target < 0) {//0==2 || 4<0
             return;
         }
-
         // Include current element
-        combination(arr, index, target - arr[index],
-                ans + arr[index] + " ");
-
+        combination(arr, index, target - arr[index], ans + arr[index] + " ");
         // Exclude current element
         combination(arr, index + 1, target, ans);
     }

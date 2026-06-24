@@ -12,8 +12,6 @@ public class permutation {
                 if (used[i] == false) //f=f
                 {
                     used[i] = true;
-                    //used[0]=t
-                    //used[1]=t
                     permu(arr, used,
                             ans + arr[i] + " ",
                             count + 1);
