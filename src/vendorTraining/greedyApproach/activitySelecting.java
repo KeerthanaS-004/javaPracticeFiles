@@ -1,4 +1,4 @@
-package greedyApproach;
+package vendorTraining.greedyApproach;
 import java.util.*;
 public class activitySelecting {
     public static void main(String[] args) {

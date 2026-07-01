@@ -12,9 +12,7 @@ public class permutation {
                 if (used[i] == false) //f=f
                 {
                     used[i] = true;
-                    permu(arr, used,
-                            ans + arr[i] + " ",
-                            count + 1);
+                    permu(arr, used, ans + arr[i] + " ", count + 1);
                     used[i] = false; // Backtracking
                 }
             }

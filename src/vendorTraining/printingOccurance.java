@@ -1,3 +1,4 @@
+/*
 package vendorTraining;
 
 import java.util.Scanner;
@@ -8,3 +9,4 @@ public class printingOccurance {
         String s = sc.nextLine();
     }
 }
+*/
