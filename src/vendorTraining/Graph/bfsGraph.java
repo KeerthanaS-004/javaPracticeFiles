@@ -24,7 +24,7 @@ public class bfsGraph {
                 int u = sc.nextInt();//0
                 int v = sc.nextInt();//1
                 adjMatrix[u][v] = 1;
-                adjMatrix[v][u] = 1; // Undirected graph
+                adjMatrix[v][u] = 1; // Undirected graph , indha line eduthuta directed
             }
 
             // Start BFS from vertex 0

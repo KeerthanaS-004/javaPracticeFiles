@@ -2,7 +2,7 @@ package javaPatternProblems;
 
 import java.util.Scanner;
 
-public class increasingTriFrom1toN_2 {
+public class FloydTriangle {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number: ");
