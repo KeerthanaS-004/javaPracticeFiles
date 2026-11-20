@@ -10,12 +10,12 @@ class A{
 class B extends A{
     public B(){
         super(5);
-        System.out.println("in B");
+        System.out.println("in Bb");
     }
     public B(int n){
         this();
 //        super(n);
-        System.out.println("in B int");
+        System.out.println("in Bb int");
     }
 }
 public class superAndThisKeyword {
@@ -25,27 +25,27 @@ public class superAndThisKeyword {
 }
 
 /*
-super(5); B() // here the default constructor having super method , refers to the super class's parameterised constructor
-this(); --> B(int n) //it refers to the class's default constructor, then after excuting super class, it calls itself
-B obj = new B();
+super(5); Bb() // here the default constructor having super method , refers to the super class's parameterised constructor
+this(); --> Bb(int n) //it refers to the class's default constructor, then after excuting super class, it calls itself
+Bb obj = new Bb();
 output:
 in A int
-in B
+in Bb
  */
 /*
-super(n); --> B(int n)
+super(n); --> Bb(int n)
 // inga n pass panra naala , when you create an obj by passing a value, it instfirst calls the super class's parameterised const
-B obj = new B(5);
+Bb obj = new Bb(5);
 output:
 in A int
-in B int
+in Bb int
  */
 /*
-super(5) --> B()
-this() --> B(int n)
-B obj = new B(5);
+super(5) --> Bb()
+this() --> Bb(int n)
+Bb obj = new Bb(5);
 output:
 in A int
-in B
-in B int
+in Bb
+in Bb int
  */
